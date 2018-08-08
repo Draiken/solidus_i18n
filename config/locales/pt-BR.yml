@@ -181,39 +181,39 @@ pt-BR:
         starts_at: Início em
         usage_limit: Limite de uso
       spree/promotion/actions/create_adjustment:
-        description: Descrição
+        description: Criar ajustes
       spree/promotion/actions/create_item_adjustments:
-        description: Descrição
+        description: Criar ajustes de itens
       spree/promotion/actions/create_quantity_adjustments:
-        description: Descrição
+        description: Criar ajustes de quantidade
       spree/promotion/actions/free_shipping:
-        description: Descrição
+        description: Frete Grátis
       spree/promotion/rules/first_order:
-        description: Descrição
+        description: Primeira compra
       spree/promotion/rules/first_repeat_purchase_since:
-        description: Descrição
+        description: Primeira compra desde
         form_text: Texto do Formulário
       spree/promotion/rules/item_total:
-        description: Descrição
+        description: Total de itens
       spree/promotion/rules/landing_page:
-        description: Descrição
+        description: Página de entrada
       spree/promotion/rules/nth_order:
-        description: Descrição
+        description: Enésima Ordem
         form_text: Texto do Formulário
       spree/promotion/rules/one_use_per_user:
-        description: Descrição
+        description: Um uso por usuário
       spree/promotion/rules/option_value:
-        description: Descrição
+        description: Opção de tipo
       spree/promotion/rules/product:
-        description: Descrição
+        description: Produto
       spree/promotion/rules/taxon:
-        description: Descrição
+        description: Categoria
       spree/promotion/rules/user:
-        description: Descrição
+        description: Usuário
       spree/promotion/rules/user_logged_in:
-        description: Descrição
+        description: Usuário logado
       spree/promotion/rules/user_role:
-        description: Descrição
+        description: Tipo de usuário
       spree/promotion_category:
         name: Categorias de Promoções
       spree/property:
@@ -774,8 +774,8 @@ pt-BR:
     adjustment: Ajuste
     adjustment_amount: Valor
     adjustment_labels:
-      line_item: Item de Linha
-      order: Pedido
+      line_item: "%{promotion} (%{promotion_name})"
+      order: "%{promotion} (%{promotion_name})"
       tax_rates:
         sales_tax: Taxa de venda
         sales_tax_refund: Taxa de restituição de venda
@@ -874,7 +874,7 @@ pt-BR:
         areas: Localizações
         checkout: Reembolsos e Retornos
         configuration: Configurações
-        display_order: Visualizar Pedido
+        display_order: Ordem de Exibição
         management: Gerenciar
         option_types: Tipos
         orders: Pedidos
@@ -1749,17 +1749,17 @@ pt-BR:
         description: O cliente deve visitar a página especificada
         name: Página de Destino
       one_use_per_user:
-        description: Descrição
-        name: Nome
+        description: Uma vez por usuário
+        name: Único por usuário
       option_value:
         description: Descrição
-        name: Nome
+        name: Tipo de Opção
       product:
         description: Pedido inclui produto(s) específico(s)
         name: Produto(s)
       taxon:
         description: Descrição
-        name: Nome
+        name: Categoria
       user:
         description: Disponível apenas para usuários específicos
         name: Usuários
