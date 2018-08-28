@@ -752,50 +752,50 @@ pt-BR:
         other: Usuários
   devise:
     confirmations:
-      confirmed: 
-      send_instructions: 
+      confirmed: Sua conta foi confirmada com sucesso. Você está agora logado.
+      send_instructions: Você receberá um email com instruções para confirmar sua conta nos próximos minutos.
     failure:
-      inactive: 
-      invalid: 
-      invalid_token: 
-      locked: 
-      timeout: 
-      unauthenticated: 
-      unconfirmed: 
+      inactive: Sua conta ainda não foi ativada.
+      invalid: Email ou senha inválidos
+      invalid_token: Token de autenticação inválido
+      locked: Sua conta está bloqueada.
+      timeout: Sua sessão expirou. Por favor realize o login novamente para continuar.
+      unauthenticated: Você precisa se registrar ou realizar o login antes de continuar.
+      unconfirmed: Você deve confirmar sua conta antes de continuar.
     mailer:
       confirmation_instructions:
-        subject: 
+        subject: Instruções de confirmação
       reset_password_instructions:
-        subject: 
+        subject: Instruções para reset de senha
       unlock_instructions:
-        subject: 
+        subject: Instruções para desbloqueio
     oauth_callbacks:
-      failure: 
-      success: 
+      failure: 'Não foi possível fazer a autorização pelo %{kind}: %{reason}'
+      success: 'Autorizado pelo %{kind} com sucesso.'
     unlocks:
-      send_instructions: 
-      unlocked: 
+      send_instructions: Você receberá um email com instruções sobre como desbloquear a sua conta nos próximos minutos.
+      unlocked: Sua conta foi desbloqueada com sucesso. Você está logado.
     user_passwords:
       user:
-        cannot_be_blank: 
-        send_instructions: 
-        updated: 
+        cannot_be_blank: Sua senha não pode ficar em branco
+        send_instructions: Você receberá um email com instruções sobre como resetar sua senha nos próximos minutos.
+        updated: Sua senha foi alterada com sucesso. Você está agora logada(o).
     user_registrations:
-      destroyed: 
-      inactive_signed_up: 
-      signed_up: 
-      updated: 
+      destroyed: Tchau! Sua conta foi cancelada com sucesso. Esperamos vê-la(o) novamente logo.
+      inactive_signed_up: 'Você se registrou com sucesso. Infelizmente não foi possível realizar o login por: %{reason}.'
+      signed_up: Bem vinda(o)! Você se registrou com sucesso.
+      updated: Conta atualizada com sucesso.
     user_sessions:
-      signed_in: 
-      signed_out: 
+      signed_in: Login realizado com sucesso.
+      signed_out: Logout realizado com sucesso.
   errors:
     messages:
-      already_confirmed: 
-      not_found: 
-      not_locked: 
+      already_confirmed: já foi confirmado
+      not_found: não encontrado
+      not_locked: não foi bloqueada
       not_saved:
-        one: 
-        other: 
+        one: ! '1 error previniu o %{resource} de ser salvo:'
+        other: ! '%{count} erros preveniram o %{resource} de ser salvo:'
   spree:
     abbreviation: Abreviação
     accept: Aceitar
