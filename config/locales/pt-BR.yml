@@ -2424,5 +2424,5 @@ pt-BR:
   time:
     formats:
       solidus:
-        long: 
-        short: 
+        long: '%B %d, %Y %-l:%M %p'
+        short: "%b %-d '%y %-l:%M%P"
