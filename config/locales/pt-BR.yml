@@ -1274,8 +1274,8 @@ pt-BR:
     date: Data
     date_completed: Data do Término
     date_picker:
-      first_day: 0
-      format: "%d/%m/%Y"
+      first_day: 1
+      format: "%Y/%m/%d"
       js_format: dd/mm/yy
     date_range: Entre as Datas
     default: Padrão
